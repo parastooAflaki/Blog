@@ -11,6 +11,13 @@
 |
 */
 
+
+
+
+Route :: view('/homePage','homePage');
+Route :: view('/about','about');
+Route ::view('/contact','contact_us');
+
 Route::get('/', function () {
     return view('welcome');
 });
